@@ -1,0 +1,157 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+MAIN_DIALOG DIALOGEX 0, 0, 277, 319
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Sorting Algorithms Comparisons for AUI"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Exit",IDCANCEL,186,283,84,14
+    LISTBOX         LIST,7,18,263,111,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Students List",IDC_STATIC,7,7,88,10
+    LTEXT           "",DESC_NUM_STUD,7,131,100,10
+    LTEXT           "Sort by:",IDC_STATIC,7,142,37,10
+    LTEXT           "Sort Algorithm:",IDC_STATIC,142,141,53,10
+    LTEXT           "Results:",IDC_STATIC,14,219,31,11
+    PUSHBUTTON      "Sort!",BUTTON_SORT,141,200,74,14
+    EDITTEXT        RESULTS,46,219,215,40,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LISTBOX         LIST_SORT,7,151,128,42,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         LIST_ALG,141,151,129,42,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Randomize",BUTTON_RAND,65,200,74,14
+    PUSHBUTTON      "Simulation Mode",BUTTON_SIM,67,267,117,14
+    LTEXT           "By Amine Rehioui",IDC_STATIC,7,287,120,9
+    LTEXT           "http://www.aui.ma/~A.Rehioui",IDC_STATIC,7,296,120,9
+    CONTROL         "Refresh while sorting",LIST_REFRESH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,141,131,107,9
+    PUSHBUTTON      "Stop",BUTTON_STOP,217,200,41,14
+    PUSHBUTTON      "Technical Info",BUTTON_TECH,186,267,84,14
+END
+
+SIM_DIALOG DIALOGEX 0, 0, 352, 156
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Simulation running.."
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",SIM_DESC1,7,39,294,15,WS_BORDER
+    LTEXT           "",SIM_DESC2,7,55,294,14,WS_BORDER
+    LTEXT           "",SIM_DESC3,7,71,294,14,WS_BORDER
+    LTEXT           "",SIM_DESC4,7,87,294,15,WS_BORDER
+    LTEXT           "",SIM_DESC5,7,103,294,14,WS_BORDER
+    LTEXT           "",SIM_DESC6,7,119,294,14,WS_BORDER
+    LTEXT           "",SIM_DESC_TIME,7,7,150,15,SS_CENTERIMAGE
+    LTEXT           "",SIM_DESC_HEADER,7,23,294,15,WS_BORDER
+    PUSHBUTTON      "Stop sim.",SIM_STOP,109,135,75,14
+    LTEXT           "time (ms)",IDC_STATIC,309,39,36,14,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    MAIN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 312
+    END
+
+    SIM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 345
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

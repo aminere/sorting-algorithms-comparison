@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AuiSorts", "AuiSorts.vcproj", "{D498C600-CD2A-41AA-AD4A-CA6CD515DA2D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D498C600-CD2A-41AA-AD4A-CA6CD515DA2D}.Debug.ActiveCfg = Release|Win32
+		{D498C600-CD2A-41AA-AD4A-CA6CD515DA2D}.Debug.Build.0 = Release|Win32
+		{D498C600-CD2A-41AA-AD4A-CA6CD515DA2D}.Release.ActiveCfg = Release|Win32
+		{D498C600-CD2A-41AA-AD4A-CA6CD515DA2D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
